@@ -1,24 +1,23 @@
-TOR IP Collector
+# TOR IP Collector
 
 This script is designed to collect tor IPs from the SecOps Institute master node list: https://raw.githubusercontent.com/SecOps-Institute/Tor-IP-Addresses/master/tor-nodes.lst
 
 
-Required Flags:
---host <helix url>
-  Description: This flag is used to set which cloud Helix instance to reach out to
-  https://apps.fireeye.com/helix/id/<helix_id>
+## Flags:
+### --host
+  Description: This flag is used to set which cloud Helix instance will be reached out to
   
---apikey <api-key>
+### --apikey
   Description: This flag is used to pass your Helix api-key for authenticating into Helix.
   
---listid <helix_list_id>
-  Description: This flag is used to set which list the script will be posting the TOR IPs into
+### --listid
+  Description: This flag is used to set which list the script will be posting the TOR IPs into. Pass the ID of the list, not the list name
   
-Optional Flags:
---ipv4 <>
+## Optional Flags:
+### --ipv4
   Description: Set if you only want IPv4 IPs in the Helix list
-  Note: if you do not provide a ipv4, or ipv6 flag, the default will be to collect both. 
   
---ipv6
+### --ipv6
   Description: Set if you only want IPv6 IPs in the Helix list
-  Note: if you do not provide a ipv4, or ipv6 flag, the default will be to collect both. 
+
+#### Note: if you do not provide a ipv4, or ipv6 flag, the default will be to collect both. 

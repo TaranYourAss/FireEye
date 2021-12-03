@@ -16,7 +16,7 @@ def main():
 
     #checks if the --data flag is used
     if args.data:
-        logs = args.data
+        log = args.data
     else:
         log = {
             "class": "testing",

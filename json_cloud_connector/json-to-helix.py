@@ -8,7 +8,7 @@ def main():
     parser.add_argument('--data', help='data you want to send to Helix , OPTIONAL', required=False)
     args, unknown = parser.parse_known_args()
     
-    #default helix URL for the JSON Cloud Connector
+    #default helix URL for log ingestion via API
     host = "https://helix-integrations.cloud.aws.apps.fireeye.com/api/upload"
 
     #headers for authentication to Helix

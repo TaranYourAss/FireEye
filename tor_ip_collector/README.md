@@ -1,6 +1,6 @@
 # TOR IP Collector
 
-This script is designed to collect tor IPs from the SecOps Institute master node list and post them into a Helix list
+This script is designed to collect TOR IPs from the SecOps Institute master node list and post them into a Helix list
 https://raw.githubusercontent.com/SecOps-Institute/Tor-IP-Addresses/master/tor-nodes.lst
 
 
